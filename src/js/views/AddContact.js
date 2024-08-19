@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 import { Context } from "../store/appContext";
 
-import "../../styles/demo.css";
+import "../../styles/AddContact.css";
 
-export const Demo = () => {
+export const AddContact = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
@@ -18,7 +18,7 @@ export const Demo = () => {
 							className="list-group-item d-flex justify-content-between"
 							style={{ background: item.background }}>
 							<Link to={"/single/" + index}>
-								<span>Link to: {item.title}</span>
+								<span>{item.title}</span>
 							</Link>
 							{// Conditional render example
 							// Check to see if the background is orange, if so, display the message
