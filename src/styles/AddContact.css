@@ -1,0 +1,19 @@
+.containerAñadirContactos {
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    border: solid;
+    border-color: rgb(184, 184, 184);
+}
+
+.btn-primary {
+    display: flex;
+    float:inline-start;
+    margin-left: 10%;
+}
+
+.btn-success {
+    display: flex;
+    float: inline-end;
+    margin-right: 10%;
+}
