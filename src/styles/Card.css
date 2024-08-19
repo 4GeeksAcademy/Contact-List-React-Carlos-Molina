@@ -1,4 +1,39 @@
-.img {
+.containerCard {
+    width: 90%;
+    margin-left:5%;
+    margin-bottom: 1%;
+    display: flex;
     border: solid;
-    border-color: black;
+    border-color: rgb(184, 184, 184);
+    box-shadow: 10px 5px 5px rgb(61, 61, 61);
+}
+
+.imagen {
+    border-radius: 1000px;
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.datosContacto {
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 80%;
+}
+
+.nombreContacto {
+    margin-bottom: 4%;
+}
+
+.botonesFinal {
+    width: 10%;
+}
+
+.botonEditar, .botonEliminar {
+    border: none;
+    background-color: white;
+    margin: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    font-size: x-large;
 }
