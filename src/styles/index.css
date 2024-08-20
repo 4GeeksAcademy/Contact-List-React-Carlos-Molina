@@ -1,3 +1,7 @@
 /* 
     General Styles
 */
+
+body {
+    background: linear-gradient(rgb(0, 255, 221), rgb(236, 89, 255));
+}

@@ -4,16 +4,26 @@
     padding: 2%;
     border: solid;
     border-color: rgb(184, 184, 184);
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(61, 61, 61);
 }
 
 .btn-primary {
     display: flex;
     float:inline-start;
     margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 5px rgb(61, 61, 61);
 }
 
 .btn-success {
     display: flex;
-    float: inline-end;
-    margin-right: 10%;
+}
+
+/* CSS para Navbar */
+
+
+
+.fa-book {
+    margin-left: 10%;
 }

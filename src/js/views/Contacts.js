@@ -1,12 +1,18 @@
-import React from "react";
-import "../../styles/Contacts.css";
-import { Card } from "../component/Card";
+import React, { useContext } from "react";
+import { Context } from "../store/appContext.js";
+import { Link } from "react-router-dom";
 
-export const Contacts = () => (
-	<div>
-		<Card />
-		<Card />
-		<Card />
-		<Card />
-	</div>
-);
+import Card from "../component/Card.jsx";
+import "../../styles/Contacts.css";
+
+export const Contacts = () => {
+    const { store } = useContext(Context);
+
+    return (
+        <div>
+            {store.contacts.map((contact, index) => (
+                <Card key={index} contact={contact} />
+            ))}
+        </div>
+    );
+};
